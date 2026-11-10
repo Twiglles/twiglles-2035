@@ -29,6 +29,7 @@ header p{margin:0;font-size:15px;color:var(--muted)}
 .btn{position:relative;display:flex;flex-direction:column;justify-content:space-between;gap:24px;padding:clamp(22px,3vw,40px);border-radius:22px;text-decoration:none;color:var(--ink);background:var(--bg);border:2px solid var(--ink);overflow:hidden;transition:transform .18s ease,background .18s ease,color .18s ease}
 .btn .no{font-family:var(--f-display);font-weight:600;font-size:15px;color:var(--accent)}
 .btn b{display:block;font-family:var(--f-display);font-weight:600;font-size:clamp(26px,3.6vw,52px);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+.btn>div{padding-right:84px}
 .btn p{margin:12px 0 0;font-size:clamp(14px,1.3vw,17px);line-height:1.5;max-width:44ch;color:var(--muted)}
 .btn .go{position:absolute;right:clamp(22px,3vw,40px);bottom:clamp(22px,3vw,40px);width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:28px;background:var(--ink);color:var(--bg);transition:transform .18s ease}
 .btn:hover,.btn:focus-visible{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);outline:none}
@@ -43,6 +44,7 @@ footer{font-size:13px;color:var(--muted)}
   .grid{grid-template-columns:1fr;grid-auto-rows:auto}
   .btn{min-height:200px}
   .btn .go{width:52px;height:52px;font-size:22px}
+  .btn>div{padding-right:64px}
 }
 @media (prefers-reduced-motion: reduce){.btn,.btn .go{transition:none}}
 </style>
